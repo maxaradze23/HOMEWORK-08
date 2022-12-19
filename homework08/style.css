@@ -1,0 +1,71 @@
+*{
+	margin: 0 ;
+	padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.car {
+  height: 200px;
+  width: 300px;
+  animation-duration: 6s;
+  animation-name: car;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  background z-index: 0;
+
+}
+
+.night{
+  height:730px;
+  width: 1631px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  text-align: center;
+
+
+}
+
+.car2{
+  height: 200px;
+  width: 300px;
+  animation-duration: 6s;
+  animation-name: car2;
+  animation-iteration-count: infinite;
+  position: absolute;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+
+}
+
+@keyframes car {
+  from {
+  	bottom: 215px;
+    left: 50px;
+
+
+  }
+
+  to {
+    bottom: 215px;
+    left: 1250px;
+  }
+}
+
+@keyframes car2 {
+  from {
+	 bottom:60px;
+	 right: 50px;
+
+  }
+
+ to {
+  bottom: 60px;
+  right: 1250px;
+
+ }
+}
